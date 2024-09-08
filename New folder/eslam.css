@@ -1,0 +1,51 @@
+.about {
+    font-size: 40px;
+    border-bottom: 2px solid aqua;
+    text-align: center;
+    width: 180px;
+    margin: auto;
+}
+
+.bo {
+    background-color: rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    z-index: 9;
+    position: absolute;
+    transform: translate(55%, 20%);
+    text-align: center;
+    box-sizing: border-box;
+    width: 700px;
+    margin: auto;
+    color: white;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.hi {
+    background: url("https://tse3.mm.bing.net/th?id=OIP.pac8rWjNpduKPgEU-hH41wHaEK&pid=Api&P=0&h=220");
+    background-size: cover;
+    height: 679px;
+    background-position: center;
+}
+
+.hi::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.facebook {
+    border-radius: 50%;
+}
+
+@media (max-width:768px) {
+    .bo {
+        flex-basis: 100%;
+    }
+}
